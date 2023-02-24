@@ -17,6 +17,9 @@ body {
 }
 
 /*Styling the content within the container*/
+h2, p {
+    text-align: center;
+}
 form  {
     display: inline-block;
 }
