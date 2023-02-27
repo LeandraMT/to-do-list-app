@@ -1,5 +1,5 @@
 // Creating the content within the the container
-let li = $('<ul></ul>');
+let li = $('<li></li>');
 let inputValue = $('#input').val();
 li.append(inputValue);
 
@@ -21,9 +21,9 @@ crossOutButton.on('click', deleteListItem);
     }
 
 // Creating the function for deleting the items
-function deleteListItem() {
-   li.toggleClass('delete');
-}
+//function deleteListItem() {
+//   li.toggleClass('delete');
+//}
 
 // Crossing out an item from the list
 function crossOut(){
