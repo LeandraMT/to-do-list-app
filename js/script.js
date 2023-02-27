@@ -16,14 +16,11 @@ li.append(crossOutButton);
 
 // Event listener for the X button
 crossOutButton.on('click', deleteListItem);
-    function deleteListItem(){
-        li.addClass('delete')
-    }
 
 // Creating the function for deleting the items
-//function deleteListItem() {
-//   li.toggleClass('delete');
-//}
+function deleteListItem() {
+   li.toggleClass('delete');
+}
 
 // Crossing out an item from the list
 function crossOut(){

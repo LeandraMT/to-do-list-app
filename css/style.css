@@ -17,14 +17,23 @@ body {
 }
 
 /*Styling the content within the container*/
-h2, p {
+h2 {
+    opacity: 0.8;
     text-align: center;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    opacity: 0.5;
 }
 form  {
     display: inline-block;
 }
 input {
     padding: 4px 15px 4px 5px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
 }
 #button {
     display: inline-block;
