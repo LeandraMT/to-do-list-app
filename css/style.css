@@ -51,12 +51,15 @@ ol li {
 ol li:nth-child(even){
     background-color: #dfdfdf;
 }
-.strike {
-    text-decoration: line-through;
-}
 li:hover {
     cursor: pointer;
 }
+
+/*When the item gets double clicked*/
+.strike {
+    text-decoration: line-through;
+}
+/*When the item gets deleted*/
 .delete {
     display: none;
 }
