@@ -12,7 +12,7 @@ function newItem(){
     }
 
     // Adding the delete button on the item list
-    let crossOutButton = $('<crossOutButton>x</crossOutButton>');
+    let crossOutButton = $('<crossOutButton class="xButton">x</crossOutButton>');
     li.append(crossOutButton);
 
     // Event listener for the X button
@@ -25,7 +25,7 @@ function newItem(){
 
     // Crossing out an item from the list
     function crossOut(){
-        li.toggleClass('strike');
+        li.addClass('strike');
     }
 
     // Adding the event listener to the crossOut item
@@ -36,3 +36,7 @@ function newItem(){
     // Reorder the items on the list
     $('#list').sortable();
 }
+
+$('#button').on('click', function(){
+    newItem();
+});

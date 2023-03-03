@@ -6,6 +6,7 @@ body {
     background: #dfdfdf;
 }
 
+
 /*Styling the container*/
 .container {
     padding: 20px;
@@ -15,6 +16,7 @@ body {
     background-color: white;
     border-radius: 5px;
 }
+
 
 /*Styling the content within the container*/
 h2 {
@@ -49,6 +51,7 @@ input {
     opacity: 0.8;
 }
 
+
 /*Styling the list*/
 ol {
     padding-left: 20px;
@@ -64,11 +67,20 @@ li:hover {
     cursor: pointer;
 }
 
+
 /*When the item gets double clicked*/
 .strike {
     text-decoration: line-through;
 }
+
+
 /*When the item gets deleted*/
 .delete {
     display: none;
+}
+
+
+/*Styling the 'x' button*/
+.xButton {
+    float: right;
 }
