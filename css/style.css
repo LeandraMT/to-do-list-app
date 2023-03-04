@@ -84,3 +84,6 @@ li:hover {
 .xButton {
     float: right;
 }
+.xButton:hover {
+    color: #fc999b;
+}

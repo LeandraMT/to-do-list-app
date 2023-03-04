@@ -12,7 +12,7 @@ function newItem(){
     }
 
     // Adding the delete button on the item list
-    let crossOutButton = $('<crossOutButton class="xButton">x</crossOutButton>');
+    let crossOutButton = $('<crossOutButton class="xButton">X</crossOutButton>');
     li.append(crossOutButton);
 
     // Event listener for the X button
