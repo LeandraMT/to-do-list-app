@@ -14,21 +14,22 @@ body {
 /*Home Page*/
 #home {
     margin: auto;
+    background: white;
 }
 
 #home>h1 {
     color: #6c5b7c;
     display: block;
     text-align: center;
+    font-weight: 300;
 }
 
 h1 span {
     line-height: 50px;
-    color: #c06c84;
 }
 
 #home>p {
-    font-size: 18px;
+    font-size: 15px;
     width: 500px;
     line-height: 25px;
     text-align: justify;
@@ -37,10 +38,26 @@ h1 span {
 
 .list-items {
     color: #352f44;
-    font-size: 16px;
+    font-size: 14px;
     padding: 4px;
 }
 
+#start {
+    margin-left: 45%;
+    margin-bottom: 5%;
+    background-color: #c06c84;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+
+#start:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
 
 /*Hiding the main page - making it a SPA*/
 #main {
@@ -59,14 +76,16 @@ h1 span {
 
 /*Styling the content within the container*/
 h2 {
-    opacity: 0.8;
+    font-weight: 300;
+    color: #352f44;
     text-align: center;
 }
 p {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 8px;
-    opacity: 0.5;
+    opacity: 0.8;
+    font-size: 14px;
 }
 form  {
     display: inline-block;
@@ -78,7 +97,7 @@ input {
 }
 #button {
     display: inline-block;
-    background-color: #fc999b;
+    background-color: #c06c84;
     color: #ffffff;
     border-radius: 5px;
     text-align: center;
@@ -125,4 +144,20 @@ li:hover {
 }
 .xButton:hover {
     color: #fc999b;
+}
+
+#back {
+    margin-top: 5%;
+    background-color: #6c5b7c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+
+#back:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
