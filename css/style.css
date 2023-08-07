@@ -4,9 +4,48 @@
 body {
     font: normal normal 13px/16px 'Open Sans', 'sans-serif';
     background: #dfdfdf;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Home Page*/
+#home {
+    margin: auto;
+}
+
+#home>h1 {
+    color: #6c5b7c;
+    display: block;
+    text-align: center;
+}
+
+h1 span {
+    line-height: 50px;
+    color: #c06c84;
+}
+
+#home>p {
+    font-size: 18px;
+    width: 500px;
+    line-height: 25px;
+    text-align: justify;
+    color: #352f44;
+}
+
+.list-items {
+    color: #352f44;
+    font-size: 16px;
+    padding: 4px;
 }
 
 
+/*Hiding the main page - making it a SPA*/
+#main {
+    display: none;
+}
 /*Styling the container*/
 .container {
     padding: 20px;
